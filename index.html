@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ionic Curso Parte1</title>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"
+    />
+  </head>
+  <body>
+    <ion-app> <!-- Punto de partida para crear la aplicación en Ionic -->
+
+        <ion-header> <!-- Cabecera -->
+            <ion-toolbar> <!-- Barra de Navegación -->
+                <ion-title>Header Toolbar</ion-title> <!-- Muestra el titulo -->
+            </ion-toolbar>
+        </ion-header>
+
+        <ion-content> <!-- Contenido de la pagina -->
+
+            <ion-card> <!-- Contenedores que muestran contenido como texto, imágenes, botones y listas. -->
+                <ion-card-header> <!-- Cabecera de Card -->
+                  <ion-card-title>Card Title</ion-card-title> <!-- Titulo de Card -->
+                  <ion-card-subtitle>Card Subtitle</ion-card-subtitle> <!-- Subtitulo Card -->
+                </ion-card-header>
+              
+                <ion-card-content> <!-- Contenido de Card -->
+                  Here's a small text description for the card content. Nothing more, nothing less.
+                  
+                  <ion-item> <!-- Son Items que solo se usan como filas en un lista. Contiene texto, iconos, 
+                    avatares, imágenes, entradas y cualquier otro elemento nativo o personalizado -->
+                    <ion-label position="floating">Floating Input</ion-label> <!-- Similar al label HTML -->
+                    <ion-input placeholder="Enter text"></ion-input> <!-- Similar al input de HTML -->
+                </ion-item>
+
+                </ion-card-content>
+              
+            </ion-card>
+
+        </ion-content>
+        
+    </ion-app>
+  </body>
+</html>
